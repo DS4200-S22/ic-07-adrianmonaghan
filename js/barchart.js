@@ -89,8 +89,8 @@ const mouseover1 = function(event, d) {  // mouseover function definition
 
 // TODO: What does each line of this code do? 
 const mousemove1 = function(event, d) {  // mouse movement function
-  tooltip1.style("left", (event.x)+"px")  // sets the left hand bound of the tooltip to the cursor
-          .style("top", (event.y + yTooltipOffset) +"px");  // sets the upper bound for the tooltip
+  tooltip1.style("left", (event.pageX)+"px")  // sets the left hand bound of the tooltip to the cursor
+          .style("top", (event.pageY + yTooltipOffset) +"px");  // sets the upper bound for the tooltip
 }
 
 // TODO: What does this code do? 
@@ -144,8 +144,8 @@ const mouseover2 = function(event, d) {  // mouseover function definition
 
 // TODO: What does each line of this code do?
 const mousemove2 = function(event, d) {  // mouse movement function
-  tooltip2.style("left", (event.x)+"px")  // sets the left hand bound of the tooltip to the cursor
-      .style("top", (event.y + yTooltipOffset) +"px");  // sets the upper bound for the tooltip
+  tooltip2.style("left", (event.pageX)+"px")  // sets the left hand bound of the tooltip to the cursor
+      .style("top", (event.pageY + yTooltipOffset) +"px");  // sets the upper bound for the tooltip
 }
 
 // TODO: What does this code do?
